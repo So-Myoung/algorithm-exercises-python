@@ -1,35 +1,42 @@
 
-# 큐, 덱 - 기능 개발
-# 프로그래머스 자료구조 고득점 kit 출제
+# 큐, 덱 - 카드 뭉치
 
-import math
+from collections import deque
 
-def solution(progresses, speeds):
-    res = []
-    cnt = 0
 
-    n = len(progresses)
+def solution(cards1, cards2, goal):
+    cards1 = deque(cards1)
+    cards2 = deque(cards2)
+    goal = deque(goal)
 
-    wrk_day = [math.ceil((100 - progresses[i]) / speeds[i]) for i in range(n)]
-
-    pri_day = wrk_day[0]
-
-    for i in range(n):
-        if wrk_day[i] <= pri_day:
-            cnt += 1
+    while goal:
+        if cards1 and cards1[0] == goal[0]:
+            cards1.popleft()
+            goal.popleft()
+        elif cards2 and cards2[0] == goal[0]:
+            cards2.popleft()
+            goal.popleft()
         else:
-            res.append(cnt)
-            cnt = 1
-            pri_day = wrk_day[i]
+            break
 
-    res.append(cnt)
-    return res
+    # if goal:
+    #     return "No"
+    # else:
+    #     return "Yes"
+    return "Yes" if not goal else "No"  # 삼항 연산자
 
 
 def main():
-    p = list(map(int, input().split()))
-    s = list(map(int, input().split()))
-    print(solution(p, s))
+    # 테스트 케이스 1
+    print(solution(["i", "drink", "water"], ["want", "to"], ["i", "want", "to", "drink", "water"]))
+    # 테스트 케이스 2
+    print(solution(["i", "water", "drink"], ["want", "to"], ["i", "want", "to", "drink", "water"]))
+
+    # 직접 입력
+    # c1 = deque(input().split())
+    # c2 = deque(input().split())
+    # g = deque(input().split())
+    # print(solution(c1, c2, g))
 
 
 if __name__ == "__main__":
