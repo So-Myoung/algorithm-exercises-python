@@ -1,4 +1,5 @@
 
+# 프로그래머스 알고리즘 고득점 kit
 # 정렬 - K번째 수
 
 def solution(array, commands):
