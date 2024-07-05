@@ -3,6 +3,7 @@
 
 import heapq
 
+
 class MinHeap:
     def __init__(self):
         self.heap = []
@@ -25,7 +26,7 @@ class MaxHeap:
         return -heapq.heappop(self.heap)
 
     def push_tuple(self, value):
-        # 튜플 (우선순위, 값) 로 우선 순위 지정 가능
+        # 튜플 (우선 순위, 값) 로 우선 순위 지정 가능
         heapq.heappush(self.heap, (-value, value))
 
     def pop_tuple(self):
@@ -39,9 +40,9 @@ def main():
     min.push(5)
     min.push(20)
     min.push(1)
-    print(min.heap) # heapq는 꺼내면서 정렬을 하기 때문에 정렬된 상태가 아님
+    print(min.heap)  # heapq는 꺼내면서 정렬을 하기 때문에 정렬된 상태가 아님
     print(min.pop())
-    print(min.heap) # 정렬 상태
+    print(min.heap)  # 정렬 상태
     print(min.pop())
     print(min.heap)
 
@@ -59,8 +60,9 @@ def main():
     max.push_tuple(5)
     max.push_tuple(20)
     max.push_tuple(1)
-    print(max.heap) # (우선순위, 값)
-    print([max.pop_tuple()[1] for _ in range(len(max.heap))]) # index 1 = 값 출력
+    print(max.heap)  # (우선순위, 값)
+    print([max.pop_tuple()[1] for _ in range(len(max.heap))])  # index 1 = 값 출력
+
 
 if __name__ == "__main__":
     main()

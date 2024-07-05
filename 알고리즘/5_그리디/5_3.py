@@ -1,5 +1,5 @@
 
-# 그리드 - 1이 될 때 까지
+# 그리디 - 1이 될 때 까지
 
 n, k = map(int, input().split())
 result = 0

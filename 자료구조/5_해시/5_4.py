@@ -1,4 +1,3 @@
-
 # 해시 - 신고 결과 받기
 # 2022 KAKAO BLIND RECRUITMENT
 
