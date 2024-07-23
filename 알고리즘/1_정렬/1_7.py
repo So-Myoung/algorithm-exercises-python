@@ -1,6 +1,5 @@
 
 # 정렬 - 두 배열의 원소 교체
-# temp 사용
 
 n, k = map(int, input().split())
 a = list(map(int, input().split()))

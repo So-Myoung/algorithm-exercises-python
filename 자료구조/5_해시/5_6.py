@@ -19,6 +19,7 @@ def solution(string_list, query_list):
         query_hash = polynomial_hash(query)
         if query_hash in hash_list:
             answer.append(True)
+
         else:
             answer.append(False)
 
