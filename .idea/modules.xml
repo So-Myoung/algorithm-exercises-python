@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/algorithm-exercises-python.iml" filepath="$PROJECT_DIR$/.idea/algorithm-exercises-python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm-exercises-python.iml" filepath="$PROJECT_DIR$/algorithm-exercises-python.iml" />
     </modules>
   </component>
 </project>
