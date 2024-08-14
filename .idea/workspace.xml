@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46abfc02-55ce-44f2-95ca-4863d057803f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/자료구조/6_트리/6_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자료구조/6_트리/6_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자료구조/6_트리/BST.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/자료구조/6_트리/6_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +45,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.6_2">
+  <component name="RunManager" selected="Python.6_3">
     <configuration name="계수정렬" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm-exercises-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,6 +112,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="6_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-exercises-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/자료구조/6_트리" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/자료구조/6_트리/6_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="BST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm-exercises-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,6 +180,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.6_3" />
         <item itemvalue="Python.6_2" />
         <item itemvalue="Python.BST" />
         <item itemvalue="Python.6_1" />
@@ -178,7 +198,8 @@
       <updated>1722838221688</updated>
       <workItem from="1722838222605" duration="1099000" />
       <workItem from="1723518057854" duration="2196000" />
-      <workItem from="1723520746072" duration="16306000" />
+      <workItem from="1723520746072" duration="16540000" />
+      <workItem from="1723647854483" duration="800000" />
     </task>
     <servers />
   </component>
@@ -200,6 +221,7 @@
     <SUITE FILE_PATH="coverage/algorithm_exercises_python$1_2.coverage" NAME="1_2 Coverage Results" MODIFIED="1722838288598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/알고리즘/1_정렬" />
     <SUITE FILE_PATH="coverage/algorithm_exercises_python$6_2.coverage" NAME="6_2 Coverage Results" MODIFIED="1723541283470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/자료구조/6_트리" />
     <SUITE FILE_PATH="coverage/algorithm_exercises_python$BST.coverage" NAME="BST Coverage Results" MODIFIED="1723537847513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/자료구조/6_트리" />
+    <SUITE FILE_PATH="coverage/algorithm_exercises_python$6_3.coverage" NAME="6_3 Coverage Results" MODIFIED="1723648652930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/자료구조/6_트리" />
     <SUITE FILE_PATH="coverage/algorithm_exercises_python$.coverage" NAME="삽입정렬 Coverage Results" MODIFIED="1722838310838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/알고리즘/1_정렬" />
     <SUITE FILE_PATH="coverage/algorithm_exercises_python$6_1.coverage" NAME="6_1 Coverage Results" MODIFIED="1723524018910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/자료구조/6_트리" />
   </component>
