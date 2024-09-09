@@ -1,4 +1,4 @@
-# 그래프 - 넓이 우선 탐색(BFS)
+# 그래프 - 넓이 우선 탐색(BFS) 구현
 
 
 from collections import deque

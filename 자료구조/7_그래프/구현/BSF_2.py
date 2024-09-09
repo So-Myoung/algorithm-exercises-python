@@ -1,4 +1,5 @@
-# 그래프 - 넓이 우선 탐색(BFS) 심화
+# 그래프 - 넓이 우선 탐색(BFS)
+# defaultdict 이용 구현
 
 from collections import defaultdict, deque
 

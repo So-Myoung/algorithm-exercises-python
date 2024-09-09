@@ -1,4 +1,4 @@
-# 그래프 - 깊이 우선 탐색(DFS)
+# 그래프 - 깊이 우선 탐색(DFS) 구현
 
 
 def solution(graph):
