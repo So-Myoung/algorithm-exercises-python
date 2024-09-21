@@ -1,4 +1,4 @@
-# 이코테 - 음료수 얼려먹기(DFS)
+# 이코테 - 음료수 얼려먹기
 
 n, m = map(int, input().split())
 graph = []
