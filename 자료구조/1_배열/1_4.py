@@ -1,5 +1,5 @@
 
-# 배열 - 두 개 뽑아서 더하기
+# 배열 - 모의고사
 
 def solution(answers):
     patterns = [
